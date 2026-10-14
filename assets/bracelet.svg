@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bca987"/><stop offset="1" stop-color="#e3d2a9"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#36352f" stop-opacity=".48"/><stop offset="1" stop-color="#36352f" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+<circle cx="970" cy="140" r="230" fill="url(#glow)" filter="url(#soft)" opacity=".72"/>
+<path d="M0 650 C180 575 280 700 430 610 S730 580 1200 420" fill="none" stroke="#36352f" stroke-opacity=".18" stroke-width="8"/>
+<path d="M0 705 C210 620 320 740 500 650 S820 650 1200 470" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="2"/>
+<g filter="url(#shadow)"><g fill="#e0cfaa" stroke="#7b6d53" stroke-width="3"><rect x="260" y="250" width="36" height="280" rx="16" transform="rotate(-20 278 390)"/><rect x="308" y="250" width="36" height="280" rx="16" transform="rotate(-15 278 390)"/><rect x="356" y="250" width="36" height="280" rx="16" transform="rotate(-10 278 390)"/><rect x="404" y="250" width="36" height="280" rx="16" transform="rotate(-5 278 390)"/><rect x="452" y="250" width="36" height="280" rx="16" transform="rotate(0 278 390)"/><rect x="500" y="250" width="36" height="280" rx="16" transform="rotate(5 278 390)"/><rect x="548" y="250" width="36" height="280" rx="16" transform="rotate(10 278 390)"/><rect x="596" y="250" width="36" height="280" rx="16" transform="rotate(15 278 390)"/><rect x="644" y="250" width="36" height="280" rx="16" transform="rotate(20 278 390)"/></g><circle cx="470" cy="390" r="92" fill="#12130f" stroke="#d7b875" stroke-width="8"/><circle cx="470" cy="390" r="70" fill="#171812"/></g><text x="66" y="108" fill="#36352f" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="5">JEWELRY</text>
+<text x="66" y="690" fill="#f5eee0" font-family="Georgia,serif" font-size="46" font-weight="700">LINKED BRACELET</text>
+<text x="66" y="728" fill="#d2c9b6" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2">AURELIS TIME / PRIVATE WATCH ADVISORY</text>
+</svg>

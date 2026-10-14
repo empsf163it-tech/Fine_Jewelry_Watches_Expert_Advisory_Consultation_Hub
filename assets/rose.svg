@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9b8ab"/><stop offset="1" stop-color="#9c665c"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#4d332b" stop-opacity=".48"/><stop offset="1" stop-color="#4d332b" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+<circle cx="970" cy="140" r="230" fill="url(#glow)" filter="url(#soft)" opacity=".72"/>
+<path d="M0 650 C180 575 280 700 430 610 S730 580 1200 420" fill="none" stroke="#4d332b" stroke-opacity=".18" stroke-width="8"/>
+<path d="M0 705 C210 620 320 740 500 650 S820 650 1200 470" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="2"/>
+<rect x="414" y="120" width="112" height="500" rx="55" fill="#23241d"/>
+<circle cx="470" cy="370" r="136" fill="#0a0a08" filter="url(#shadow)"/>
+<circle cx="470" cy="370" r="112" fill="#11120e" stroke="#4d332b" stroke-width="11"/>
+<circle cx="470" cy="370" r="92" fill="none" stroke="#8f8a78" stroke-opacity=".55" stroke-width="2"/>
+<circle cx="470" cy="370" r="72" fill="none" stroke="#8f8a78" stroke-opacity=".22" stroke-width="1"/>
+<g stroke="#ddd4bd" stroke-width="3" stroke-linecap="round" opacity=".8"><line x1="550.0" y1="370.0" x2="558.0" y2="370.0"/><line x1="539.3" y1="410.0" x2="546.2" y2="414.0"/><line x1="510.0" y1="439.3" x2="514.0" y2="446.2"/><line x1="470.0" y1="450.0" x2="470.0" y2="458.0"/><line x1="430.0" y1="439.3" x2="426.0" y2="446.2"/><line x1="400.7" y1="410.0" x2="393.8" y2="414.0"/><line x1="390.0" y1="370.0" x2="382.0" y2="370.0"/><line x1="400.7" y1="330.0" x2="393.8" y2="326.0"/><line x1="430.0" y1="300.7" x2="426.0" y2="293.8"/><line x1="470.0" y1="290.0" x2="470.0" y2="282.0"/><line x1="510.0" y1="300.7" x2="514.0" y2="293.8"/><line x1="539.3" y1="330.0" x2="546.2" y2="326.0"/></g>
+<path d="M470 370 L508 304" stroke="#f7f1e0" stroke-width="8" stroke-linecap="round"/>
+<path d="M470 370 L525 425" stroke="#4d332b" stroke-width="6" stroke-linecap="round"/>
+<circle cx="470" cy="370" r="9" fill="#4d332b"/>
+<text x="66" y="108" fill="#4d332b" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="5">ROSE GOLD</text>
+<text x="66" y="690" fill="#f5eee0" font-family="Georgia,serif" font-size="46" font-weight="700">ROSE BRUSH</text>
+<text x="66" y="728" fill="#d2c9b6" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2">AURELIS TIME / PRIVATE WATCH ADVISORY</text>
+</svg>

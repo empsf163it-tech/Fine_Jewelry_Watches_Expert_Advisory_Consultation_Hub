@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ede5d5"/><stop offset="1" stop-color="#d2b16b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#171711" stop-opacity=".48"/><stop offset="1" stop-color="#171711" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+<circle cx="970" cy="140" r="230" fill="url(#glow)" filter="url(#soft)" opacity=".72"/>
+<path d="M0 650 C180 575 280 700 430 610 S730 580 1200 420" fill="none" stroke="#171711" stroke-opacity=".18" stroke-width="8"/>
+<path d="M0 705 C210 620 320 740 500 650 S820 650 1200 470" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="2"/>
+<circle cx="520" cy="390" r="140" fill="#0d0f0d" filter="url(#shadow)"/>
+<circle cx="520" cy="390" r="118" fill="#23231e" stroke="#171711" stroke-width="9"/>
+<circle cx="520" cy="390" r="90" fill="#171711"/>
+<g fill="#171711"><circle cx="520" cy="230" r="11"/><circle cx="520" cy="550" r="11"/><circle cx="360" cy="390" r="11"/><circle cx="680" cy="390" r="11"/><circle cx="407" cy="277" r="9"/><circle cx="633" cy="503" r="9"/></g>
+<path d="M860 215 905 120 950 215 905 300z" fill="#f4ead2" opacity=".88"/><path d="M1020 285 1050 225 1080 285 1050 350z" fill="#c9a761" opacity=".9"/>
+<text x="66" y="108" fill="#171711" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="5">GEMSET</text>
+<text x="66" y="690" fill="#f5eee0" font-family="Georgia,serif" font-size="46" font-weight="700">CHAMPAGNE SET</text>
+<text x="66" y="728" fill="#d2c9b6" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2">AURELIS TIME / PRIVATE WATCH ADVISORY</text>
+</svg>

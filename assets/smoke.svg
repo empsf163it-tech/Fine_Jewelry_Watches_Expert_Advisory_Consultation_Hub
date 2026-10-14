@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9aaa3"/><stop offset="1" stop-color="#5a5d57"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#1b1c18" stop-opacity=".48"/><stop offset="1" stop-color="#1b1c18" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+<circle cx="970" cy="140" r="230" fill="url(#glow)" filter="url(#soft)" opacity=".72"/>
+<path d="M0 650 C180 575 280 700 430 610 S730 580 1200 420" fill="none" stroke="#1b1c18" stroke-opacity=".18" stroke-width="8"/>
+<path d="M0 705 C210 620 320 740 500 650 S820 650 1200 470" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="2"/>
+<g filter="url(#shadow)"><circle cx="500" cy="390" r="145" fill="#e8e8df"/><circle cx="500" cy="390" r="122" fill="#f2f0e6" stroke="#2b2d27" stroke-width="4"/><path d="M500 390l0-76M500 390l54 44" stroke="#1b1c18" stroke-width="8" stroke-linecap="round"/><circle cx="500" cy="390" r="8" fill="#1b1c18"/></g><text x="66" y="108" fill="#1b1c18" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="5">MINIMAL</text>
+<text x="66" y="690" fill="#f5eee0" font-family="Georgia,serif" font-size="46" font-weight="700">SMOKE GREY</text>
+<text x="66" y="728" fill="#d2c9b6" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2">AURELIS TIME / PRIVATE WATCH ADVISORY</text>
+</svg>

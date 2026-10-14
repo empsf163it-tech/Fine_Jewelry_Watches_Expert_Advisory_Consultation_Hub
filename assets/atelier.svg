@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7d0c2"/><stop offset="1" stop-color="#5e655b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#b78b41" stop-opacity=".48"/><stop offset="1" stop-color="#b78b41" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+<circle cx="970" cy="140" r="230" fill="url(#glow)" filter="url(#soft)" opacity=".72"/>
+<path d="M0 650 C180 575 280 700 430 610 S730 580 1200 420" fill="none" stroke="#b78b41" stroke-opacity=".18" stroke-width="8"/>
+<path d="M0 705 C210 620 320 740 500 650 S820 650 1200 470" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="2"/>
+<g filter="url(#shadow)"><rect x="270" y="250" width="520" height="280" rx="28" fill="#1b1d19"/><circle cx="420" cy="390" r="84" fill="#0d0f0c" stroke="#c49b57" stroke-width="9"/><circle cx="420" cy="390" r="50" fill="none" stroke="#8e8f83" stroke-width="4"/><path d="M600 320l120 0M600 360l100 0M600 400l140 0M600 440l80 0" stroke="#d7ccb1" stroke-opacity=".7" stroke-width="12" stroke-linecap="round"/></g>
+<path d="M160 570h900" stroke="#b78b41" stroke-opacity=".5" stroke-width="3"/>
+<text x="66" y="108" fill="#b78b41" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="5">ATELIER</text>
+<text x="66" y="690" fill="#f5eee0" font-family="Georgia,serif" font-size="46" font-weight="700">HAND FINISH</text>
+<text x="66" y="728" fill="#d2c9b6" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2">AURELIS TIME / PRIVATE WATCH ADVISORY</text>
+</svg>
