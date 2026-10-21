@@ -143,7 +143,7 @@
         io.unobserve(entry.target);
       }
     });
-  }, { threshold: .08, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0.02, rootMargin: '160px 0px 160px 0px' });
   targets.forEach(el => io.observe(el));
 
   // Guarantee visibility if an observer is unavailable or a browser blocks it.
